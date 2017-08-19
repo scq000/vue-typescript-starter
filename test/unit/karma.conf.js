@@ -28,5 +28,9 @@ module.exports = function (config) {
     },
     autoWatch: true,
     concurrency: Infinity,
+    browserNoActivityTimeout: 60000,
+    captureTimeout: 60000,
+    browserDisconnectTimeout: 100000,
+    browserDisconnectTolerance: 1,
   });
 };

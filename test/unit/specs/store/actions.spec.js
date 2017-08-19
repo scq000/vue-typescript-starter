@@ -1,4 +1,4 @@
-const inject = require('inject-loader!babel-loader!@/store/actions.ts');
+const inject = require('inject-loader!babel-loader?presets=es2015!@/store/actions.ts');
 
 const actions = inject({
   './api/shop': {
