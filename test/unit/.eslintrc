@@ -5,5 +5,9 @@
   "globals": {
     "expect": true,
     "sinon": true
+  },
+  "rules": {
+    "no-plusplus": 0,
+    "import/no-webpack-loader-syntax": 0
   }
 }
